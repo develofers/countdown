@@ -1,0 +1,30 @@
+
+ h2 , h3,h1, footer
+  {text-align: center; color:lightblue; display : block;}
+body {
+  background-image: url('1.jpg');
+   background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: cover;
+  }
+ footer
+  {color : red;}
+img {
+image-size : 50 px ;
+height :300px ; width :200px;
+transition : All 0.5s;
+}
+img:hover 
+{
+transform : scale(1.1,1.1);
+}
+.uc
+{display : inline-block;
+}
+p
+{
+color : white;
+margin: 10 px ;
+text-align:center;
+font-size:20px;
+}
